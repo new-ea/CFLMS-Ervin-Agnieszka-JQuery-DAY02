@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic 1</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .container > img {
+            width: 320px;
+            height: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img/santa-claus.png" alt="Santa">
+        <img src="img/1-2-christmas-bell-png-image.png" alt="Bells">
+        <img src="img/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png" alt="Gift">
+    </div>
+
+    <h1 class="output"></h1>
+
+    <script>
+        $(document).ready(function(){
+
+            const image = $(`div > img:nth-child(2)`);
+            const out = $(".output");
+
+            image.on("click", function(){
+                out.text("You clicked on the Christmas bell");
+            })
+            
+        });
+    </script>
+</body>
+</html>
