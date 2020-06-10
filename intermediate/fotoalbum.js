@@ -1,39 +1,39 @@
 $(document).ready(function(){
 
 	const fammembers = JSON.parse(famMembers);
-
-
+	
 		 for (var i=0; i<fammembers.length; i++) {
 		 	
-		 	let decription = fammembers[i].description;
-		 	//let out += $('#description');
-
-		 	let member = `<div class="memberBox Box${[i]}"> 
+		 	let description = fammembers[i].description;
+			
+		 	let member = `<div class="memberBox"> 
 		 	
 						 	<img src="${fammembers[i].image}">
 						 	
 						 	<div class="persData"> 
 								<p> ${fammembers[i].firstname}  ${fammembers[i].lastname}</p>
 								<p> ${fammembers[i].relation}</p>
-								<p id="description${[i]}"></p>
-						 	</div> 
+							 </div> 
+							 
+							 <p class="description">${description}</p>
 
 						 	</div>`
-		 	$(".wrapper").append(member);
-
-		 	$(`.Box${[i]}`).on('click', function(){
-		 		
-		 		alert(`tets${[i]}`)
-
-		 		//$(`#description${[i]}`).text("test")
-
-		 	});
-
-		 	 
+			 $(".wrapper").append(member);	
+			
 		 };
 
+		 var members = $(".memberBox"); 
 
-
+		 for ( let i = 0; i < members.length; i++) {
+			$(members[i]).on("click" , function(){
+				$(this).find(".description").css("display","block");
+				$(this).find(".description").text(fammembers[i].description);
+				
+			})
+		 }
+		//  console.log(members);
+		 
+			
 
 		 for (var i=0; i<fammembers.length; i++) {
 		 	if (fammembers[i].fam == true){

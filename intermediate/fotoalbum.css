@@ -7,6 +7,10 @@
 	flex-wrap:  wrap;
 }
 
+.description {
+	display: none;
+}
+
 .memberBox {
 	width: 30vw;
 	min-height: 40vw;
