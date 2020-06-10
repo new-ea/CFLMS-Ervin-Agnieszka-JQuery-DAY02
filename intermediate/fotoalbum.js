@@ -31,8 +31,6 @@ $(document).ready(function(){
 				
 			})
 		 }
-		//  console.log(members);
-		 
 			
 
 		 for (var i=0; i<fammembers.length; i++) {
