@@ -1,0 +1,69 @@
+var famMembers = 
+	`[
+    {
+      "firstname": "Alicia",
+      "lastname": "Dewan",
+      "relation": "daughter",
+      "image": "",
+      "fam": true,
+      "description": "11 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+
+    },
+    {
+      "firstname": "Filip",
+      "lastname": "Dewan",
+      "relation": "son",
+      "image": "",
+       "fam": true,
+        "description": "22 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+    },
+    {
+      "firstname": "Tytus",
+      "lastname": "Wojtara",
+      "relation": "brother",
+      "image": "",
+       "fam": true,
+        "description": "33 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+    },
+    {
+      "firstname": "Niko",
+      "lastname": "Wojtara",
+      "relation": "father",
+      "image": "",
+       "fam": true,
+        "description": "44 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+    },
+    {
+      "firstname": "Maria",
+      "lastname": "Wojtara",
+      "relation": "mother",
+      "image": "",
+       "fam": true,
+        "description": "55 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+    },
+    {
+      "firstname": "Dominika",
+      "lastname": "Nowotny",
+      "relation": "friend",
+      "image": "",
+       "fam": false,
+        "description": "66 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+    },
+    {
+      "firstname": "Monika",
+      "lastname": "Rock",
+      "relation": "friend",
+      "image": "",
+       "fam": false,
+        "description": "77 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+    },
+     {
+      "firstname": "Margit",
+      "lastname": "Sonnberger",
+      "relation": "friend",
+      "image": "",
+       "fam": false,
+        "description": "88 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. "
+    }
+
+]`

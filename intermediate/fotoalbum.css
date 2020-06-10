@@ -1,0 +1,30 @@
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap:  wrap;
+}
+
+.memberBox {
+	width: 30vw;
+	min-height: 40vw;
+	border: 1px solid gray;
+	padding-right: 2vw;
+	margin-bottom: 5vw;
+	
+}
+
+
+body {
+	text-align: center;
+}
+.family{
+	color: blue;
+	background-color: lightgray;
+}
+.nonfamily {
+	color: green;
+	background-color: coral; 
+}
